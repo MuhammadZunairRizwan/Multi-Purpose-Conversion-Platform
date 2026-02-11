@@ -1,0 +1,162 @@
+# Environment Variables (CRITICAL - Never commit!)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Credentials & Secrets (CRITICAL - Never commit!)
+*credentials*.csv
+*credential*.json
+*secrets*.txt
+*secret*.json
+.aws/
+.credentials/
+credentials/
+
+# AWS Credentials & Keys
+aws/
+*.pem
+*.key
+*.csv
+
+# Deployment Configuration (contains sensitive data)
+deploy/
+*.config.js
+ecosystem.config.js
+
+# Documentation Build
+docs/
+
+# Repository Backup/Clones
+repo/
+*.backup/
+
+# Frontend (Next.js)
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/.turbo
+frontend/dist
+frontend/.cache
+frontend/coverage
+
+# Frontend Build Files
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+frontend/*.tsbuildinfo
+
+# Backend (Python)
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/venv/
+backend/ENV/
+backend/env/
+backend/.venv
+
+# Python Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vim
+.emacs
+*.iml
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Database (CRITICAL - Never commit production data!)
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.backup
+*.bak
+db_backup/
+database_backup/
+
+# Private Files
+private/
+secrets/
+.secrets/
+.private/
+
+# Package Lock (optional - comment out if you want to track)
+# frontend/package-lock.json
+# backend/poetry.lock
+
+# PM2 Logs
+.pm2/
+pm2.log
+
+# Deployment
+deploy/ecosystem.config.js.bak
+
+# Documentation Build
+docs/_build/
+docs/.build/
+site/
+
+# Testing
+.nyc_output
+coverage
+
+
+nul
