@@ -1,9 +1,5 @@
 # Environment Variables (CRITICAL - Never commit!)
-.env
-.env.local
 .env.*.local
-.env.production
-.env.development
 
 # Credentials & Secrets (CRITICAL - Never commit!)
 *credentials*.csv
@@ -85,7 +81,6 @@ ENV/
 .venv
 
 # IDE & Editor
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -160,3 +155,8 @@ coverage
 
 
 nul
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules
